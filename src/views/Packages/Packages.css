@@ -1,0 +1,690 @@
+.main_package {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: var(--background-color); */
+    border-top: 1px solid var(--border-color);
+    background-color: var(--background-color);
+}
+
+.package_title {
+    height: 50px;
+    width: 100%;
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaushan";
+    border-top: 1px solid var(--border-color);
+    background-color: var(--background-color);
+}
+
+.main_package_frame {
+    height: 60vh;
+    width: 95%;
+    padding: 10px;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 40px;
+    /* border: 1px solid var(--border-color); */
+    background-color: var(--background-color);
+}
+
+.main_package_frame::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.package_card {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--font-color);
+    background-color: var(--background-color);
+    /* border: 1px solid var(--border-color); */
+}
+
+.card_img {
+    height: 290px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: var(--background-color); */
+    /* border: 1px solid red; */
+}
+
+.card_img_contant {
+    height: 275px;
+    width: 95%;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    object-fit: cover;
+    object-position: center;
+}
+
+.card_contant {
+    height: 400px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.card_heading {
+    height: 70px;
+    width: 95%;
+    margin: 5px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: "Kaushan";
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+}
+
+.card_note {
+    height: 400px;
+    width: 97%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.card_paragraph_title {
+    height: 30px;
+    width: 97%;
+    font-size: 22px;
+    margin-top: 1px;
+    font-family: "Kaushan";
+    /* border: 2px solid red; */
+}
+
+.card_paregraph {
+    height: 190px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "WinkySans";
+    /* border: 2px solid red; */
+}
+
+.card_btn_component {
+    height: 55px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "WinkySans";
+    /* border: 2px solid red; */
+}
+
+.WhatsAppbtn {
+    height: 40px;
+    width: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #058a07;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.WhatsAppbtn:hover {
+    background-color: #058a07;
+    color: rgb(229, 229, 229);
+    box-shadow: 0 0 5px #058a07;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.WhatsAppbtn:first-child {
+    filter: rotate(225deg)
+}
+
+.WhatsAppbtn:last-child {
+    filter: rotate(90deg)
+}
+
+.WhatsAppbtn span {
+    position: absolute;
+    display: block;
+}
+
+.WhatsAppbtn span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #058a07);
+    animation: animate1 1s infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.WhatsAppbtn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #058a07);
+    animation: animate2 1s infinite;
+    animation-delay: .25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 100%;
+    }
+}
+
+.WhatsAppbtn span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(270deg, transparent, #058a07);
+    animation: animate3 1s infinite;
+    animation-delay: .5s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
+
+.WhatsAppbtn span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #058a07);
+    animation: animate 1s infinite;
+    animation-delay: .75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+
+    100% {
+        bottom: 100%;
+    }
+}
+
+.fa-whatsapp {
+    font-size: 2rem;
+}
+
+.Contactbtn {
+    height: 40px;
+    width: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #0076d7;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.Contactbtn:hover {
+    background-color: #0076d7;
+    color: rgb(229, 229, 229);
+    box-shadow: 0 0 5px #0076d7;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.Contactbtn:first-child {
+    filter: rotate(225deg)
+}
+
+.Contactbtn:last-child {
+    filter: rotate(90deg)
+}
+
+.Contactbtn span {
+    position: absolute;
+    display: block;
+}
+
+.Contactbtn span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #0076d7);
+    animation: animate1 1s infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.Contactbtn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #0076d7);
+    animation: animate2 1s infinite;
+    animation-delay: .25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 100%;
+    }
+}
+
+.Contactbtn span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(270deg, transparent, #0076d7);
+    animation: animate3 1s infinite;
+    animation-delay: .5s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
+
+.Contactbtn span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #0076d7);
+    animation: animate4 1s infinite;
+    animation-delay: .75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+
+    100% {
+        bottom: 100%;
+    }
+}
+
+.fa-phone {
+    font-size: 1.5rem;
+}
+
+.end_note {
+    height: 100px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: "Kaushan";
+    border-top: 1px solid black;
+    background-color: var(--background-color);
+}
+
+.end_note_title {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 850px) {
+
+    .package_title {
+        height: 50px;
+        width: 100%;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .main_package {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: var(--background-color); */
+        /* border: 1px solid var(--border-color); */
+    }
+
+    .main_package_frame {
+        height: 50vh;
+        width: 95%;
+        padding: 10px;
+        overflow: auto;
+        padding: 20px;
+        border-radius: 40px;
+        /* border: 1px solid var(--border-color); */
+        background-color: var(--background-color);
+    }
+
+    .main_package_frame::-webkit-scrollbar {
+        background-color: transparent;
+    }
+
+    .package_card {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: var(--font-color);
+        background-color: var(--background-color);
+        /* border: 1px solid var(--border-color); */
+    }
+
+    .card_img {
+        height: 200px;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: var(--background-color); */
+        /* border: 1px solid red; */
+    }
+
+    .card_img_contant {
+        height: 150px;
+        width: 95%;
+        border-radius: 50%;
+        border: 1px solid var(--border-color);
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .card_contant {
+        height: 250px;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .card_heading {
+        height: 25px;
+        width: 95%;
+        font-size: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border-bottom: 2px solid black; */
+    }
+
+    .card_note {
+        height: 210px;
+        width: 97%;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .card_paragraph_title {
+        font-size: 18px;
+    }
+
+    .card_paregraph {
+        height: 170px;
+        width: 97%;
+        font-size: 18px;
+        /* border: 2px solid red; */
+    }
+
+    .card_btn_component {
+        height: 55px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .WhatsAppbtn {
+        height: 30px;
+        width: 35%;
+        font-size: 0.8rem;
+    }
+
+    .fa-whatsapp {
+        font-size: 1.2rem;
+    }
+
+    .Contactbtn {
+        height: 30px;
+        width: 35%;
+        font-size: 0.8rem;
+    }
+
+    .fa-phone {
+        font-size: 1rem;
+    }
+
+    .end_note {
+        height: 100px;
+        width: 100%;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .end_note_title {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .package_title {
+        height: 45px;
+        width: 100%;
+    }
+
+    .main_package {
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: var(--background-color); */
+        border-top: 1px solid var(--border-color);
+    }
+
+    .main_package_frame {
+        height: 80vh;
+        width: 95%;
+        padding: 10px;
+        overflow: auto;
+        border-radius: 40px;
+        /* border: 1px solid var(--border-color); */
+        background-color: var(--background-color);
+    }
+
+    .main_package_frame::-webkit-scrollbar {
+        background-color: transparent;
+    }
+
+    .package_card {
+        height: 530px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        color: var(--font-color);
+        background-color: var(--background-color);
+        border: 1px solid var(--border-color);
+    }
+
+    .card_img {
+        height: 25%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .card_img_contant {
+        height: 100px;
+        width: 60%;
+        border-radius: 50%;
+        border: 1px solid var(--border-color);
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .card_contant {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .card_heading {
+        height: 25px;
+        width: 95%;
+        font-size: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border-bottom: 2px solid black; */
+    }
+
+    .card_note {
+        height: 320px;
+        width: 97%;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .card_paregraph {
+        height: 150px;
+        width: 97%;
+        /* border: 2px solid red; */
+    }
+
+    .card_btn_component {
+        height: 150px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .WhatsAppbtn {
+        height: 30px;
+        width: 50%;
+        font-size: 0.8rem;
+    }
+
+    .fa-whatsapp {
+        font-size: 1.2rem;
+    }
+
+    .Contactbtn {
+        height: 30px;
+        width: 50%;
+        font-size: 0.8rem;
+    }
+
+    .fa-phone {
+        font-size: 1rem;
+    }
+
+    .end_note {
+        height: 100px;
+        width: 100%;
+        font-size: 13px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .end_note_title {
+        font-size: 1.5rem;
+    }
+
+}
