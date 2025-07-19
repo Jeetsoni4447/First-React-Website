@@ -38,7 +38,7 @@ function Footer() {
                 <img src="./public/jklogo.jpg" alt="Front Side" />
               </div>
               <div className="flip-back">
-                <img src="./public/jkgooglelogo.png" alt="Back Side" />
+                <img src="./jkgooglelogo.png" alt="Back Side" />
               </div>
             </div>
           </div>
