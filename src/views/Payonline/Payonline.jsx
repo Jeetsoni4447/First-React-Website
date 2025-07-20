@@ -50,7 +50,7 @@ function Payonline() {
           <div className='QrcodeTitle'>
             JK TOURS & TRAVELS QR CODE
           </div>
-          <img src="src/external_folder/jkimg/JKTOURSQRCODE.PNG" className='QRcode_img' alt="..." />
+          <img src="./JKTOURSQRCODE.PNG" className='QRcode_img' alt="..." />
         </div>
       </div>
 
