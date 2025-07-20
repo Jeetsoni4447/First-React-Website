@@ -35,7 +35,7 @@ function Footer() {
           <div className="photo-flip laptop_show">
             <div className="flip-inner">
               <div className="flip-front">
-                <img src="./jklogo.jpg" alt="Front Side" />
+                <img src="./jklogo.jpeg" alt="Front Side" />
               </div>
               <div className="flip-back">
                 <img src="./jkgooglelogo.png" alt="Back Side" />
