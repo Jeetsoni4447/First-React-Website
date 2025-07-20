@@ -37,7 +37,7 @@ function About() {
           </p>
         </div>
         <div className="about_img transition_hide">
-          <img src="./src/external_folder/jkimg/India_Travel.jpg" className="about_poster"></img>
+          <img src="./India_Travel.jpg" className="about_poster"></img>
         </div>
       </div>
     </>
