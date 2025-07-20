@@ -47,7 +47,7 @@ function Contact() {
           <a href="mailto:jktourstravels4447@gmail.com" className="contact_text">
             <FontAwesomeIcon icon={faEnvelope} />&nbsp;&nbsp;JkTours&Travels4447@gmail.com
           </a><br />
-          <a href="https://jk-tours-travels.vercel.app/" className="contact_text"><FontAwesomeIcon icon={faGlobe} />&nbsp;WWW.JKTOURS-TRAVELS.COM
+          <a href="https://www.jktours-travels.com/" className="contact_text"><FontAwesomeIcon icon={faGlobe} />&nbsp;WWW.JKTOURS-TRAVELS.COM
           </a><br />
         </div>
 
