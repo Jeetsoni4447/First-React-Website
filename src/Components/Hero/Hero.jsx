@@ -29,55 +29,55 @@ function Hero() {
   const slideimg = [
     {
       isActive: true,
-      imageName: './src/external_folder/jkimg/rann_of_kutch.avif',
+      imageName: './rann_of_kutch.avif',
       title: 'KATCH',
       subTitle: 'GUJARAT'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/Kanyakumari.jpg',
+      imageName: './Kanyakumari.jpg',
       title: 'KANYAKUMARI',
       subTitle: 'TAMIL-NADU'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/Darjeeling.jpeg',
+      imageName: './Darjeeling.jpeg',
       title: 'DARJEELING',
       subTitle: 'WEST BENGAL'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/Leh-Ladakh.webp',
+      imageName: './Leh-Ladakh.webp',
       title: 'LEH-LADAKH',
       subTitle: 'JAMMU-KASHMIR'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/4-Dham/Dwarka.jpeg',
+      imageName: './4-Dham/Dwarka.jpeg',
       title: 'DWARKA',
       subTitle: 'GUJARAT'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/4-Dham/Rameshwaram.jpg',
+      imageName: './4-Dham/Rameshwaram.jpg',
       title: 'RAMESHWARAM',
       subTitle: 'TAMIL-NADU'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/4-Dham/Jagannathpuri.jpg',
+      imageName: './4-Dham/Jagannathpuri.jpg',
       title: 'JAGANNATHPURI',
       subTitle: 'ODISHA'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/4-Dham/Badrinath.jpg',
+      imageName: './4-Dham/Badrinath.jpg',
       title: 'BADRINATH',
       subTitle: 'UTTARAKHAND'
     },
     {
       isActive: false,
-      imageName: './src/external_folder/jkimg/4-Dham/Kedarnath.jpeg',
+      imageName: './4-Dham/Kedarnath.jpeg',
       title: 'KEDARNATH',
       subTitle: 'UTTARAKHAND'
     }
