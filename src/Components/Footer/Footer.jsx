@@ -31,14 +31,14 @@ function Footer() {
     <>
       <footer className="footer transition_hide">
         <div className="footerimg">
-          <img src="./public/jklogo.jpg" alt="" className="img tablet_mobile_show"></img>
+          <img src="./public/jklogo.jpeg" alt="" className="img tablet_mobile_show"></img>
           <div className="photo-flip laptop_show">
             <div className="flip-inner">
               <div className="flip-front">
-                <img src="./jklogo.jpeg" alt="Front Side" />
+                <img src="./public/jklogo.jpeg" alt="Front Side" />
               </div>
               <div className="flip-back">
-                <img src="./jkgooglelogo.png" alt="Back Side" />
+                <img src="./public/jkgooglelogo.png" alt="Back Side" />
               </div>
             </div>
           </div>
