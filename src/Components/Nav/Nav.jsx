@@ -48,7 +48,7 @@ function Nav() {
       {/* navbar */}
 
       <nav className="nav transition_hide">
-        <Link to="/" className="navimg" end><img src="./public/jklogo.jpg" alt="jktours" /></Link>
+        <Link to="/" className="navimg" end><img src="./jklogo.jpg" alt="jktours" /></Link>
         <Link to="/packages" className="navbtn" end>PACKAGE</Link>
         <Link to="/contact" className="navbtn" end>CONTACT</Link>
         <Link to="/payonline" className="navbtn" end>PAY ONLINE</Link>
@@ -76,9 +76,3 @@ function Nav() {
 }
 
 export default Nav;
-
-<nav className="nav transition_hide">
-
-
-
-</nav>
