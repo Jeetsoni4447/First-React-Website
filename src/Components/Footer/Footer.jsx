@@ -80,7 +80,7 @@ function Footer() {
             <h1 className="text_heading"><b>ABOUT US</b></h1>
             <p>
               HIII ,<br />
-              WELCOME TO JK TOURS & TRAVELS <br /> MY TRAVELLING SERVICES 24X7 HOURS BOOKING, VEHICLE, <br /> AND ALL
+              WELCOME TO JK TOURS & TRAVELS <br /> OUR TRAVELLING SERVICES 24X7 HOURS BOOKING, VEHICLE, <br /> AND ALL
               SERVICES
               ETC...
               AVAILABLE AND ALL VEHICLE<br /> VERY LUXURIES. AC/NON-AC VEHICLE IS ALSO AVAILABLE.

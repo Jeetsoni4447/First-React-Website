@@ -30,7 +30,7 @@ function About() {
           <p className="paragraph">
             SINCE :- 2008<br /> Owner Name :- KanaBhai , Owner Son's :- JeetBhai<br />
             Online Management Manager :- JeetBhai <br /><br />
-            Hiii , Welcome To JK TOURS & TRAVELS <br /> My Travelling Service 24X7 Hours Booking, Vehicle, <br /> And All
+            Hiii , Welcome To JK TOURS & TRAVELS <br /> Our Travelling Service 24X7 Hours Booking, Vehicle, <br /> And All
             Service
             Etc...
             Available And All Vehicle<br /> Very Luxuries. AC/Non-AC Vehicle is Also Available.
