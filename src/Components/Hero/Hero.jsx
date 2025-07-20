@@ -53,31 +53,31 @@ function Hero() {
     },
     {
       isActive: false,
-      imageName: './4-Dham/Dwarka.jpeg',
+      imageName: './Dwarka.jpeg',
       title: 'DWARKA',
       subTitle: 'GUJARAT'
     },
     {
       isActive: false,
-      imageName: './4-Dham/Rameshwaram.jpg',
+      imageName: './Rameshwaram.jpg',
       title: 'RAMESHWARAM',
       subTitle: 'TAMIL-NADU'
     },
     {
       isActive: false,
-      imageName: './4-Dham/Jagannathpuri.jpg',
+      imageName: './Jagannathpuri.jpg',
       title: 'JAGANNATHPURI',
       subTitle: 'ODISHA'
     },
     {
       isActive: false,
-      imageName: './4-Dham/Badrinath.jpg',
+      imageName: './Badrinath.jpg',
       title: 'BADRINATH',
       subTitle: 'UTTARAKHAND'
     },
     {
       isActive: false,
-      imageName: './4-Dham/Kedarnath.jpeg',
+      imageName: './Kedarnath.jpeg',
       title: 'KEDARNATH',
       subTitle: 'UTTARAKHAND'
     }
